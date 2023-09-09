@@ -71,3 +71,23 @@ firewall-cmd --reload
 ```sh
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
+
+##### To automate jenkins configuration, install configuration as code
+![Alt text](/img/Configure_as_code.png)
+
+## Ansible Installation
+###### Ensure that the CentOS 7 EPEL repository is installed
+```sh
+sudo yum install epel-release
+```
+
+###### Command to install ansible
+```sh
+sudo yum install ansible
+```
+
+###### Configure Ansible Hosts
+###### Command to open hosts file with root privileges
+```sh
+sudo vi /etc/ansible/hosts
+```
